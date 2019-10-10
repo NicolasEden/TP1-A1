@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="Description" content="Voici un site de travaille personnel">
+        <link rel="stylesheet" type="text/css" href="./CSS/laptop.css">
+        <title></title>
+    </head>
+    <header>
+        <div class="toph">
+            <h1 id="cyclone">CYCLONE</h1>
+            <p id=date></p>
+        </div>
+        <div class="top">
+            <img id="lines" src="./Ressources/Lines.png" alt="">
+            <div class="menu">
+                <ul>
+                    <li><a href=""> Main </a></li>
+                    <li><a href=""> Design </a></li>
+                    <li><a href=""> LiveStyle </a></li>
+                    <li><a href=""> Travel </a></li>
+                    <li><a href=""> Art </a></li>
+                    <li><a href=""> Fashion </a></li>
+                    <li><a href=""> Contacts </a></li>
+                </ul>
+            </div>
+            <img id="search" src="./Ressources/Search.png" alt="">
+            <div class="follow">
+                <p>Follow us</p>
+                <ul>
+                    <li><a href="#"><img src="./Ressources/Icon/Facebook.png" alt=""></a></li>
+                    <li><a href="#"><img src="./Ressources/Icon/Twiter.png" alt=""></a></li>
+                    <li><a href="#"><img src="./Ressources/Icon/Instagram.png" alt=""></a></li>
+                    <li><a href="#"><img src="./Ressources/Icon/Pinterest.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <body>
+        <div class="banner">
+            <p id="b02">02</p>
+            <div class="title">
+                <p style="font-size: 80px;">The <span class="yellow-underline-txt">Roots of Education</span></h1>
+                <p style="font-size: 80px;"><span class="italic-underline-txt">are</span><span class="underline-txt"> bitter but the</span></h1>
+                <p style="font-size: 80px;">fruit is <span class="yellow-underline-txt"> sweet</span></h1>
+            </div>
+            <img src="./Ressources/Icon/layers01.png" alt="" class="layer-01">
+            <p id="l01">01</p>
+            <img src="./Ressources/Icon/layers03.png" alt="" class="layer-03">
+            <p id="r03">03</p>
+            <div class="little-txt">
+                <p class="litle-top-txt">Exhibition <span class="yellow-txt">'Venice and Aristotle'</span></p>
+                <p class="litle-bottom-txt">08 December, 2016 - 19 March, 2017</p>
+            </div>
+        </div>
+    </body>
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+            var d = new Date();
+            var yb = new Array(11);
+              yb[0] = "Janvier";
+              yb[1] = "Février";
+              yb[2] = "Mars";
+              yb[3] = "Avril";
+              yb[4] = "Mai";
+              yb[5] = "Juin";
+              yb[6] = "Juillet";
+              yb[7] = "Aout";
+              yb[8] = "Septempbre";
+              yb[9] = "Octobre";
+              yb[10] = "Novembre";
+              yb[11] = "Decembre";
+            var y = yb[d.getMonth()];
+
+            var day = new Array(7);
+              day[1] = "Lundi";
+              day[2] = "Mardi";
+              day[3] = "Mercredi";
+              day[4] = "Jeudi";
+              day[5] = "Vendredi";
+              day[6] = "Samedi";
+              day[7] = "Dimanche";
+
+            var a = day[d.getDay()];
+
+            document.getElementById("date").innerHTML = a + ",     "+ y + "     " + d.getDate() + ",     " + d.getFullYear();
+        </script>
+</html>
