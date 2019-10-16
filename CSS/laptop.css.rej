@@ -1,0 +1,10 @@
+diff a/CSS/laptop.css b/CSS/laptop.css	(rejected hunks)
+@@ -164,6 +164,8 @@
+ .italic-underline-txt {font-style: italic; text-decoration: underline; font-family: "Cormorant"}
+ .title {
+     position: relative;
++    margin-top: 200px;
++    text-align: center;
+     z-index: 2;
+ }
+ .title p {
