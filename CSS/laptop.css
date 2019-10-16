@@ -337,9 +337,9 @@ div.content-2{
 
 img#aiglepng {
     position: relative;
-    margin: 0px 0px 0px 55%;
+    margin: 20px 0px 0px 55%;
     width: 45%;
-    height: 75%;
+    height: 71.5%;
 }
 div.part-2 h1,h2 {
     font-size: 70px;
@@ -442,9 +442,74 @@ img#img-left-deco-part-3 {
     margin-top: -200px;
     position: absolute;
 }
+.deco-part-2-right {
+    top: 275px;
+    left: 0px;
+    position: absolute;
+}
+p#right-txt-part-2 {
+    transform: rotate(-90deg);
+    position: absolute;
+    width: 500px;
+    font-size: 18px;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+}
+span#right-span-txt-part-2 {
+    padding-left: 150px;
+}
+img#img-right-deco-part-3 {
+    left: 215px;
+    margin-top: -200px;
+    position:absolute;
+}
+.deco-part-1-right {
+    position: absolute;
+    top: 275px;
+    RIGHT: 275px
+}
+img#deco-arrow-left-part-2 {
+    position:relative;
+    margin: 600px 0px 0px -625px;
 
+}
+img#deco-arrow-right-part-2 {
+    position:relative;
+    margin: 0px 0px 560px 1400px;
+
+}
+p#txt-01 {
+    display:flex;
+    justify-content: left;
+    position:relative;
+    margin-top: 60px;
+    margin-left: 4%;
+    font-size: 24px;
+}
+p#txt-04 {
+    text-align: right;
+     position:relative;
+     margin-top: 540px;
+     font-size: 24px;
+     margin-right: 4%;
+}
+img#arrow-right-part-2 {
+    position:relative;
+    margin: -500px;
+}
+img#deco-arrow-right-part-2 {
+    position:relative;
+    margin: -500px;
+}
 /* RIGHT AND LEFT CONTENER */
 
+div.part-2 {
+    width: 100%;
+    height: 900px;
+    background-color: #f2eae6;
+    margin-top : -22px;
+}
 .contener-1-part-3, .contener-3-part-3, .contener-5-part-3 {
     margin-left: 10%;
     margin-right: 4%;
