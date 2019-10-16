@@ -68,7 +68,6 @@
     font-family: "Cormorant";
     color: #26272d;
     scroll-behavior: smooth;
-    color: blue;
 }
 body {
     margin: 0px;
@@ -429,36 +428,62 @@ div.containt-2 {
 /* DECO PART 1 */
 
 p#left-txt-part-2 {
-    visibility: hidden;
+    transform: rotate(-90deg);
+    left: -210px;
+    position: absolute;
+    width: 500px;
+    font-size: 18px;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
 }
 img#img-left-deco-part-3 {
-    visibility: hidden;
+    left: 75px;
+    margin-top: -200px;
+    position: absolute;
 }
 .deco-part-2-right {
-    visibility: hidden;
+    top: 275px;
+    left: 0px;
+    position: absolute;
 }
 p#right-txt-part-2 {
-    visibility: hidden;
+    transform: rotate(-90deg);
+    position: absolute;
+    width: 500px;
+    font-size: 18px;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
 }
 span#right-span-txt-part-2 {
-    visibility: hidden;
+    padding-left: 150px;
 }
 img#img-right-deco-part-3 {
-    visibility: hidden;
+    left: 215px;
+    margin-top: -200px;
+    position:absolute;
 }
 .deco-part-1-right {
-    visibility: hidden;
+    position: absolute;
+    top: 275px;
+    RIGHT: 275px
 }
 img#deco-arrow-left-part-2 {
-    visibility: hidden;
+    position:relative;
+    margin: 600px 0px 0px -625px;
 
 }
 img#deco-arrow-right-part-2 {
-    visibility: hidden;
+    position:relative;
+    margin: 0px 0px 560px 1400px;
 
 }
 p#txt-01 {
-    visibility: hidden;
+    position:relative;
+    margin-top: 60px;
+    margin-left: 4%;
+    font-size: 24px;
 }
 p#txt-04 {
     text-align: right;

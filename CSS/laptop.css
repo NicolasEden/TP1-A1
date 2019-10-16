@@ -164,6 +164,8 @@ header {
 .italic-underline-txt {font-style: italic; text-decoration: underline; font-family: "Cormorant"}
 .title {
     position: relative;
+    margin-top: 200px;
+    text-align: center;
     z-index: 2;
 }
 .title p {
@@ -173,20 +175,11 @@ header {
     margin: 0px;
     line-height: 90px;
 }
-p#b02 {
-    position: relative;
-    margin-top: 14%;
-    text-align: center;
-    font-family: "Cormorant";
-    font-size: 26px;
-    font-weight: bold;
-    z-index: 2;
-}
 p#l01 {
     z-index: 2;
     position: relative;
     transform: rotate(-90deg);
-    margin: -20% 0px 0px -125px;
+    margin: -200px 0px 0px -125px;
     float: left;
     font-size: 250px;
     color: white;
@@ -195,7 +188,7 @@ p#r03 {
     z-index: 2;
     position: absolute;
     transform: rotate(-90deg);
-    margin: -20%  0px 0px 90%;
+    margin: -250px 0px 0px 90%;
     font-size: 250px;
     color: white;
 }
@@ -244,9 +237,9 @@ p.litle-bottom-txt {
 /* WARNING: CONTENT 1 */
 
 div.part-1 {
-    margin-top: 30px;
+    margin-top: 100px;
     background-color: #f8f4f3;
-    position: absolute;
+    position: relative;
     height: 650px;
     width: 100%;
     display: flex;
@@ -480,19 +473,16 @@ img#deco-arrow-right-part-2 {
 
 }
 p#txt-01 {
-    display:flex;
-    justify-content: left;
     position:relative;
-    margin-top: 60px;
-    margin-left: 4%;
+    text-align: right;
+    margin: 15px 0px 0px 65px;
     font-size: 24px;
 }
 p#txt-04 {
     text-align: right;
-     position:relative;
-     margin-top: 540px;
-     font-size: 24px;
-     margin-right: 4%;
+    position:relative;
+    margin: 590px 0px 0px 730px;
+    font-size: 24px;
 }
 img#arrow-right-part-2 {
     position:relative;
