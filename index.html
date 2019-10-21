@@ -268,36 +268,84 @@
             <div class="content-01-yellow">
 
             </div>
+            <img class="linebottom" src="./Ressources/Autre/Line.png" alt="">
+            <div class="part-4">
+                <div class="title-part-4">
+                    <h1>Most <span id="boder-yellow-bottom"> Read Article </span></h1>
+                </div>
+                <div class="part-4-general-content">
+                    <div class="content-part-4">
+                        <p class="txt1">Fashion</p>
+                        <h1>19 Artists at</h1>
+                        <h1>Galerie Mathgoth</h1>
+                        <p class="txt2">By NomadicMatt</p>
+                    </div>
+                    <div class="content-part-4">
+                        <p class="txt1">Art, LiveStyle</p>
+                        <h1>Share New Song</h1>
+                        <h1>“Crystal Fairy”</h1>
+                        <p class="txt2">By NomadicMatt</p>
+                    </div>
+                    <div class="content-part-4">
+                        <p class="txt1">Art, Design</p>
+                        <h1>Ten Inspiration</h1>
+                        <h1><span class="yellow-txt">Picasso</span> Sketches</h1>
+                        <p class="txt2">By NomadicMatt</p>
+                        <img src="./Ressources/Autre/Ellipse.png" alt="">
+                    </div>
+                    <div class="content-part-4">
+                        <p class="txt1">Travel, LiveStyle</p>
+                        <h1>New Zealand's </h1>
+                        <h1>Backpacker Buses</h1>
+                        <p class="txt2">By NomadicMatt</p>
+                    </div>
+                </div>
+            </div>
+            <img class="linebottom" src="./Ressources/Autre/Line.png" alt="">
+            <div class="part-5">
+                <h1>Subscribe</h1>
+                <input class="imput" id="imput" placeholder="Your E-Mail" />
+                <input type="button" id="imput2" class="send" onclick="myFunction()" value="Subscribe">
+            </div>
         </div>
-        <script>
-                var d = new Date();
-                var yb = new Array(11);
-                  yb[0] = "Janvier";
-                  yb[1] = "Février";
-                  yb[2] = "Mars";
-                  yb[3] = "Avril";
-                  yb[4] = "Mai";
-                  yb[5] = "Juin";
-                  yb[6] = "Juillet";
-                  yb[7] = "Aout";
-                  yb[8] = "Septempbre";
-                  yb[9] = "Octobre";
-                  yb[10] = "Novembre";
-                  yb[11] = "Decembre";
-                var y = yb[d.getMonth()];
 
-                var day = new Array(7);
-                  day[1] = "Lundi";
-                  day[2] = "Mardi";
-                  day[3] = "Mercredi";
-                  day[4] = "Jeudi";
-                  day[5] = "Vendredi";
-                  day[6] = "Samedi";
-                  day[7] = "Dimanche";
+        <div class="alertbox" id="alertbox">
+            <p>Vous êtes bien inscrit aux Newsletters.</p>
+            <p>Merci de votre confiance.</p>
+            <h1 class="close">X</h1>
+        </div>
 
-                var a = day[d.getDay()];
-
-                document.getElementById("date").innerHTML = a + ",     "+ y + "     " + d.getDate() + ",     " + d.getFullYear();
-        </script>
+        <footer>
+            <script src="./JS/day.js"></script>
+            <script src="./JS/rmfield.js"></script>
+            <script src="./JS/alertbox.js"></script>
+            <p>CYCONE</p>
+            <div class="footer">
+                <div class="menu-footer">
+                    <ul>
+                        <li><a href="#" class="bold-txt"> Main </a></li>
+                        <li><a href="./Ressources/404/ERROR398.jpg"> Design </a></li>
+                        <li><a href="./Ressources/404/ERROR397.jpg"> LiveStyle </a></li>
+                        <li><a href="./Ressources/404/ERROR396.jpg"> Travel </a></li>
+                        <li><a href="./Ressources/404/ERROR395.jpg"> Art </a></li>
+                        <li><a href="./Ressources/404/ERROR394.jpg"> Fashion </a></li>
+                        <li><a href="./Ressources/404/ERROR393.jpg"> Contacts </a></li>
+                    </ul>
+                </div>
+                <div>
+                    <img id="search2" src="./Ressources/Search.png" alt="">
+                </div>
+                <div class="follow-footer">
+                    <p>Follow us</p>
+                    <ul>
+                        <li><a aria-label="Logo De Facebook" href="https://fr-fr.facebook.com/JLMelenchon/"><img src="./Ressources/Icon/Facebook.png" alt=""></a></li>
+                        <li><a aria-label="Logo De Twitter" href="https://twitter.com/JLMelenchon?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="./Ressources/Icon/Twiter.png" alt=""></a></li>
+                        <li><a aria-label="Logo De Instagram" href="https://www.instagram.com/jlmelenchon/?hl=fr"><img src="./Ressources/Icon/Instagram.png" alt=""></a></li>
+                        <li><a aria-label="Logo De Pinterest" href="https://www.pinterest.fr/franceinsoumise/"><img src="./Ressources/Icon/Pinterest.png" alt=""></a></li>
+                    </ul>
+                </div>
+                <p id="copy">© 2017 CYCLONE WordPress Theme.  Made with love by Fugue  All rights reserved.</p>
+            </div>
+        </footer>
     </body>
 </html>
