@@ -96,7 +96,7 @@
 
 *{
     font-family: "Cormorant";
-    color: #26272d;
+    color: blue²;
     scroll-behavior: smooth;
 }
 body {
@@ -367,10 +367,11 @@ img#aiglepng {
 div.aiglepng {
     height: 83.5%;
 }
-div.part-2 h1,h2 {
+div.part-2 h1,div.part-2 h2 {
     font-size: 70px;
     line-height: 70px;
     margin: 0px 0px 0px -60px;
+    text-align: center;
 }
 .title-part-2 h2 {
     margin-left: -160px;
