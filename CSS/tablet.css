@@ -141,7 +141,7 @@ header {
 }
 .top img#search {
     float: right;
-    margin: -46.5px 36% 0px 0px;
+    margin: -46.5px 33% 0px 0px;
 }
 .menu {
     position: absolute;
@@ -192,6 +192,7 @@ header {
 .bold-txt {font-weight: bold;}
 .italic-txt {font-style: italic; font-family: "Cormorant"}
 .italic-underline-txt {font-style: italic; text-decoration: underline; font-family: "Cormorant"}
+
 .title {
     position: relative;
     margin-top: 200px;
@@ -206,33 +207,16 @@ header {
     line-height: 90px;
 }
 p#l01 {
-    z-index: 2;
-    position: relative;
-    transform: rotate(-90deg);
-    margin: -200px 0px 0px -125px;
-    float: left;
-    font-size: 250px;
-    color: white;
+    display: none;
 }
 p#r03 {
-    z-index: 2;
-    position: absolute;
-    transform: rotate(-90deg);
-    margin: -250px 0px 0px 90%;
-    font-size: 250px;
-    color: white;
+    display: none;
 }
 img.layer-01 {
-    position: absolute;
-    top: 55%;
-    left: 10%;
-    z-index: 5;
+    display: none;
 }
 img.layer-03 {
-    position: absolute;
-    top: 55%;
-    right: 10%;
-    z-index: 5;
+    display: none;
 }
 p.litle-top-txt {
     position: relative;
@@ -344,8 +328,10 @@ img.c-little-img-1 {
     padding-top: 80px;
 }
 div.content-2{
-    margin-top: 60px;
-    margin-left: 35% ;
+    margin-left: 50% ;
+}
+div.content-1{
+    margin-left: -80px ;
 }
 .content-yellow-2 {
     position: absolute;
@@ -360,9 +346,6 @@ div.content-2{
 
 img#aiglepng {
     display: none;
-}
-div.aiglepng {
-    height: 83.5%;
 }
 div.part-2 h1,h2 {
     font-size: 70px;
@@ -380,7 +363,7 @@ div.title-part-2 {
     text-align: center;
 }
 div.little-img-part-2 {
-    margin: -220px 0px 0px 0px;
+    visibility: hidden;
 }
 p.part-2-litle-txt {
     margin: 0px 0px 0px 0pc;
@@ -388,51 +371,33 @@ p.part-2-litle-txt {
     font-weight: bold;
     text-align: center;
 }
-div.content-part2 {
-    width: 500px;
-    font-size: 16px;
-    margin-left: 0px;
+ div.content-part2 span {
+     margin: 250px 0px 0px 0px;
 }
-div.content-part2 p, div.content-part2 span {
+div.content-part2 p{
     font-family: "Proza Libre";
-    margin: 250px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
+    width: 70%;
     text-align: center;
 }
-span#content2-part-2 {
-    position: absolute;
-    margin: 50px 0px 0px 0px;
-    width: 600px;
+div.content-part2 span {
+    font-family: "Proza Libre";
+    margin: 20px 0px 0px 0px;
+    width: 50%;
+    text-align: center;
+}
+div.content-part2 {
+    display: flex;
+    justify-content: center;
 }
 p.readme-2 {
-    margin: 200px 0px 0px 0px;
+    margin: 50px 0px 0px 0px;
+    padding-bottom: 60px;
     font-family: "Proza Libre";
     text-align: center;
 }
 div.content-white-part-2 {
     display: none;
-}
-img#imgbreak {
-    margin: 2% 0px 0px 0px;
-    height: 80%;
-    width: 8%;
-}
-img#musicimg {
-    margin: 2% 0px 0px 8%;
-    height: 80%;
-    width: 17%;
-}
-div.txt-left {
-    margin-top: 15px;
-    margin-left: 20px;
-    line-height: 10px;
-}
-div.arrow-right {
-    margin: 25px 0px 0px 20%;
-    display: flex;
-    flex-direction: column;
-}
-img#imgleft {
-    padding-top: 50px;
 }
 div.part-3 h1{
     padding-top: 80px;
@@ -451,76 +416,45 @@ div.containt-2 {
 /* DECO PART 1 */
 
 p#left-txt-part-2 {
-    transform: rotate(-90deg);
-    left: -210px;
-    position: absolute;
-    width: 500px;
-    font-size: 18px;
-    font-weight: bold;
-    display:flex;
-    justify-content: center;
+    display: none;
 }
 img#img-left-deco-part-3 {
-    left: 75px;
-    margin-top: -200px;
-    position: absolute;
+    display: none;
 }
 .deco-part-2-right {
-    top: 275px;
-    left: 0px;
-    position: absolute;
+    margin-top: 560px;
 }
 p#right-txt-part-2 {
-    transform: rotate(-90deg);
-    position: absolute;
-    width: 500px;
-    font-size: 18px;
-    font-weight: bold;
-    display:flex;
-    justify-content: center;
+    display: none;
 }
 span#right-span-txt-part-2 {
-    padding-left: 150px;
+    display: none;
 }
 img#img-right-deco-part-3 {
-    left: 215px;
-    margin-top: -200px;
-    position:absolute;
+    display: none;
 }
 .deco-part-1-right {
-    position: absolute;
-    top: 275px;
-    RIGHT: 275px
+    display: none;
 }
 img#deco-arrow-left-part-2 {
-    position:relative;
-    margin: 600px 0px 0px -625px;
+    display: none;
 
 }
 img#deco-arrow-right-part-2 {
-    position:relative;
-    margin: 0px 0px 560px 1400px;
+    display: none;
 
 }
 p#txt-01 {
-    position:relative;
-    text-align: right;
-    margin: 25px 0px 0px 65px;
-    font-size: 24px;
+    display: none;
 }
 div.txt-04 {
-    text-align: right;
-    position:relative;
-    margin: 560px 0px 0px 54.5%;
-    font-size: 24px;
+    display: none;
 }
 img#arrow-right-part-2 {
-    position:relative;
-    margin: -500px;
+    display: none;
 }
 img#deco-arrow-right-part-2 {
-    position:relative;
-    margin: -500px;
+    display: none;
 }
 
 /* RIGHT AND LEFT CONTENER */
