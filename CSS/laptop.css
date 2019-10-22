@@ -204,6 +204,7 @@ header {
     font-family: "Cormorant";
     margin: 0px;
     line-height: 90px;
+    font-size: 90px;
 }
 p#l01 {
     z-index: 2;
@@ -437,19 +438,6 @@ div.arrow-right {
 img#imgleft {
     padding-top: 50px;
 }
-div.part-3 h1{
-    padding-top: 80px;
-    font-size: 80px;
-    text-align: center;
-
-}
-div.content-1-part-3 {
-    display: flex;
-    flex-wrap: wrap;
-}
-div.containt-2 {
-    margin-left: -50px;
-}
 
 /* DECO PART 1 */
 
@@ -526,13 +514,36 @@ img#deco-arrow-right-part-2 {
     margin: -500px;
 }
 
-/* RIGHT AND LEFT CONTENER */
+/* PART 3 */
 
+div.part-3 h1{
+    padding-top: 80px;
+    font-size: 80px;
+    text-align: center;
+}
+
+div.content-1-part-3 {
+    display: flex;
+    flex-direction: row;
+}
+div.content-part-3-left, div.content-part-3-center, div.content-part-3-right {
+    width: 33%;
+}
+div.content-part-3-left {
+    margin-left: 8%;
+}
+div.containt-2 {
+    margin-left: -50px;
+}
 div.part-2 {
     width: 100%;
     background-color: #f2eae6;
     position: relative;
     margin-top : -22px;
+}
+.littleimgpart4 {
+    margin-left: 65%;
+    margin-top: -50px;
 }
 div.part-3 {
     width: 100%;
@@ -540,50 +551,7 @@ div.part-3 {
     position: relative;
     margin-top : -54px;
 }
-.contener-1-part-3, .contener-3-part-3, .contener-5-part-3 {
-    margin-left: 10%;
-    margin-right: 4%;
-}
-.contener-2-part-3, .contener-4-part-3, .contener-6-part-3 {
-    margin-left: 29%;
-}
-.contener-3-part-3.contener-3-part-3, .contener-4-part-3, .contener-6-part-3 {
-    margin-top: 2%;
-}
-.contener-5-part-3 {
-    margin-top: -50px;
-}
 
-/* CENTER CONTENER */
-
-.contener-7-part-3, .contener-8-part-3{
-    position: absolute;
-    margin-left: 38%;
-}
-.contener-8-part-3 {
-    margin-top: 50%
-}
-
-/* TEXT OF CONTENERS */
-
-.c-little-img-part-1, .c-little-img-part-2{
-    position: relative;
-    padding-left: 5px;
-}
-.littleimgpart4 {
-    margin-left: 78%;
-    width: 40%;
-    margin-top: -50px;
-}
-.contener-8-part-3 {
-    margin-top: 60.5%;
-}
-.contener-5-part-3 {
-    margin-top: -50px;
-}
-.contener-4-part-3 {
-    margin-top: 00px;
-}
 p.litle-txt-of-part-4 {
     font-size: 18px;
     font-family: "Cormorant";
@@ -631,6 +599,9 @@ p.title-of-part-5 {
     font-weight: bold;
     line-height: 40px;
 }
+a{
+    color:black;
+}
 span.title-of-part-6 {
     width: 300px;
     font-size: 39px;
@@ -639,16 +610,13 @@ span.title-of-part-6 {
     font-weight: bold;
     text-decoration:underline;
 }
-.contener-1-part-3:hover, .contener-2-part-3:hover, .contener-3-part-3:hover, .contener-4-part-3:hover, .contener-5-part-3:hover, .contener-6-part-3:hover {
-    height: 26%;
-    width: 26%;
+img.imgcontener3{
+    width: 80%;
+    height: 80%;
 }
-.contener-1-part-3, .contener-2-part-3, .contener-3-part-3, .contener-4-part-3, .contener-5-part-3, .contener-6-part-3 {
-    height: 24%;
-    width: 24%;
-    transition: 1s;
+div.contener-1-part-3:hover {
+    width: 110%;
 }
-
 /* WARNING: LOAD MORE */
 
 div.loadmore {
@@ -833,10 +801,7 @@ div.follow-footer p {
     width: 200px;
 }
 div.follow-footer ul{
-    position: relative;
-    margin: -78px 60px 60px 105%;
-    display: flex;
-    flex-direction: row;
+    display: none;
 }
 div.follow-footer li{
     padding-left: 30px;

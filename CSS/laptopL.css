@@ -96,7 +96,6 @@
 
 *{
     font-family: "Cormorant";
-    color: blue²;
     scroll-behavior: smooth;
 }
 body {
@@ -106,7 +105,9 @@ body {
 }
 
 /* WARNING: HEADER */
-
+a{
+    color:black;
+}
 header {
     position: absolute;
     background-image: url("../Ressources/background.jpg");
@@ -204,6 +205,7 @@ header {
     font-family: "Cormorant";
     margin: 0px;
     line-height: 90px;
+    font-size: 90px;
 }
 p#l01 {
     z-index: 2;
@@ -365,13 +367,12 @@ img#aiglepng {
     height: 100%;
 }
 div.aiglepng {
-    height: 83.5%;
+    height: 82.2%;
 }
 div.part-2 h1,div.part-2 h2 {
     font-size: 70px;
     line-height: 70px;
-    margin: 0px 0px 0px -60px;
-    text-align: center;
+    margin: 0px 0px 0px -80px;
 }
 .title-part-2 h2 {
     margin-left: -160px;
@@ -390,7 +391,7 @@ p.part-2-litle-txt {
 div.content-part2 {
     width: 500px;
     font-size: 16px;
-    margin-left: 200px;
+    margin-left: 150px;
 }
 div.content-part2 p, div.content-part2 span {
     font-family: "Proza Libre";
@@ -411,7 +412,7 @@ p.readme-2 {
 div.content-white-part-2 {
     background-color: #f8f4f3;
     width: 45%;
-    height: 14.8%;
+    height: 100%;
     display: flex;
     margin: -55px 0px 0px 55%;
 }
@@ -427,6 +428,7 @@ img#musicimg {
 }
 div.txt-left {
     margin-top: 15px;
+    width: 100%;
     margin-left: 20px;
     line-height: 10px;
 }
@@ -527,13 +529,35 @@ img#deco-arrow-right-part-2 {
     margin: -500px;
 }
 
-/* RIGHT AND LEFT CONTENER */
+/* PART 3 */
 
+div.part-3 h1{
+    padding-top: 80px;
+    font-size: 80px;
+    text-align: center;
+}
+
+div.content-1-part-3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin-left: 25%;
+}
+div.content-part-3-left, div.content-part-3-center, div.content-part-3-right {
+    width: 50%;
+}
+div.containt-2 {
+    margin-left: -50px;
+}
 div.part-2 {
     width: 100%;
     background-color: #f2eae6;
     position: relative;
     margin-top : -22px;
+}
+.littleimgpart4 {
+    display: none;
 }
 div.part-3 {
     width: 100%;
@@ -541,50 +565,7 @@ div.part-3 {
     position: relative;
     margin-top : -54px;
 }
-.contener-1-part-3, .contener-3-part-3, .contener-5-part-3 {
-    margin-left: 10%;
-    margin-right: 4%;
-}
-.contener-2-part-3, .contener-4-part-3, .contener-6-part-3 {
-    margin-left: 29%;
-}
-.contener-3-part-3.contener-3-part-3, .contener-4-part-3, .contener-6-part-3 {
-    margin-top: 2%;
-}
-.contener-5-part-3 {
-    margin-top: -50px;
-}
 
-/* CENTER CONTENER */
-
-.contener-7-part-3, .contener-8-part-3{
-    position: absolute;
-    margin-left: 38%;
-}
-.contener-8-part-3 {
-    margin-top: 50%
-}
-
-/* TEXT OF CONTENERS */
-
-.c-little-img-part-1, .c-little-img-part-2{
-    position: relative;
-    padding-left: 5px;
-}
-.littleimgpart4 {
-    margin-left: 78%;
-    width: 40%;
-    margin-top: -50px;
-}
-.contener-8-part-3 {
-    margin-top: 60.5%;
-}
-.contener-5-part-3 {
-    margin-top: -50px;
-}
-.contener-4-part-3 {
-    margin-top: 00px;
-}
 p.litle-txt-of-part-4 {
     font-size: 18px;
     font-family: "Cormorant";
@@ -593,20 +574,18 @@ p.litle-txt-of-part-4 {
 }
 p.title-of-part-4 {
     font-size: 39px;
-    width: 250px;
     margin-top: 0px;
     font-style: oblique;
     font-weight: bold;
     line-height: 40px;
 }
 p.title-of-part-5 {
-    font-size: 39px;
+    font-size: 25px;
     font-style: oblique;
     font-weight: bold;
     line-height: 40px;
 }
 p.text-of-part-4 {
-    width: 350px;
     font-size: 19px;
     font-family: "Proza Libre";
 }
@@ -617,7 +596,6 @@ div.content-center-modif {
     margin-top: 0px;
 }
 p.title-of-part-6 {
-    width: 350px;
     font-size: 39px;
     margin-top: 20px;
     font-style: oblique;
@@ -625,29 +603,22 @@ p.title-of-part-6 {
     line-height: 40px;
 }
 p.title-of-part-5 {
-    width: 300px;
-    font-size: 39px;
+    font-size: 25px;
     margin-top: 0px;
     font-style: oblique;
     font-weight: bold;
     line-height: 40px;
 }
 span.title-of-part-6 {
-    width: 300px;
     font-size: 39px;
     margin-top: 0px;
     font-style: oblique;
     font-weight: bold;
     text-decoration:underline;
 }
-.contener-1-part-3:hover, .contener-2-part-3:hover, .contener-3-part-3:hover, .contener-4-part-3:hover, .contener-5-part-3:hover, .contener-6-part-3:hover {
-    height: 26%;
-    width: 26%;
-}
-.contener-1-part-3, .contener-2-part-3, .contener-3-part-3, .contener-4-part-3, .contener-5-part-3, .contener-6-part-3 {
-    height: 24%;
-    width: 24%;
-    transition: 1s;
+img.imgcontener3{
+    width: 80%;
+    height: 80%;
 }
 
 /* WARNING: LOAD MORE */
